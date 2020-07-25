@@ -1,6 +1,6 @@
 import { createIcon } from './core';
 import map from './AntDesign/map';
-import '../css/AntDesign.css';
+import './css/AntDesign.css';
 
 const icon = createIcon(map, 'AntDesign');
 icon.install = function (Vue, options = {}) {
